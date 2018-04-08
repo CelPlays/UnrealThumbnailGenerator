@@ -4,11 +4,10 @@ I created this tool because our team needed it to quickly make some thumbnails s
 
 The tool is primarily desgined for our needs but should fit people's need in general. I've added Static Mesh, Skeletal Mesh(no poses or animations yet).
 
-**How it works:**
+**How it works:**  
 You open the thumbnail generator and are started out with a scene and options panel on the left, on the left you can click buttons and also setup settings for the scene and screenshots.
-
 Once you click on create screenshot it'll create a screenshot every 0.03s, once that all is done it'll go over all created screenshots and reimport them as UTexture2D into the engine and saved into the content browser.
 
-**Tips**
+**Tips**  
 Don't use the generator for objects of relatively different sized objects, it will use the same view rotation and view location for every shot taken, so you can bulk this with items of relatively the same size. (Chairs, Tables, Swords, bows, staffs, handguns, etc.)
 
