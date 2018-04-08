@@ -2,7 +2,7 @@
 
 I created this tool because our team needed it to quickly make some thumbnails semi-automatic, instead of posing camera, taking a picture, cropping, re-importing and adjusting settings for every item in our games. I don't intend to give support on this asset if something breaks in a future version other than that if I would personally need the update for our projects. I will however check out community pull requests in case someone wants to PR the fixes or updates.
 
-The tool is primarily desgined for our needs but should fit people's need in general. I've added Static Mesh, Skeletal Mesh and Animation(for poses) as supported.
+The tool is primarily desgined for our needs but should fit people's need in general. I've added Static Mesh, Skeletal Mesh(no poses or animations yet).
 
 **How it works:**
 You open the thumbnail generator and are started out with a scene and options panel on the left, on the left you can click buttons and also setup settings for the scene and screenshots.
