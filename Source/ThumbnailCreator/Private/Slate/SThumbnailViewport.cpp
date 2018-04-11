@@ -4,7 +4,6 @@
 #include "SViewport.h"
 #include "Editor/LevelEditor/Private/SLevelViewportToolBar.h"
 #include "AssetEditorModeManager.h"
-#include "CustomAdvancedPreviewScene.h"
 #include "Editor/AdvancedPreviewScene/Public/AdvancedPreviewScene.h"
 #include "Editor/AdvancedPreviewScene/Public/AdvancedPreviewSceneModule.h"
 #include "ThumbnailViewportClient.h"
@@ -35,7 +34,7 @@ void SThumbnailViewport::OnFloatingButtonClicked()
 }
 
 //Just create the advnaced preview scene and initiate components
-SThumbnailViewport::SThumbnailViewport() : PreviewScene(MakeShareable(new FCustomAdvancedPreviewScene(FPreviewScene::ConstructionValues())))
+SThumbnailViewport::SThumbnailViewport() : PreviewScene(MakeShareable(new FAdvancedPreviewScene(FPreviewScene::ConstructionValues())))
 {
 
 	MeshComp = NewObject<UStaticMeshComponent>();
