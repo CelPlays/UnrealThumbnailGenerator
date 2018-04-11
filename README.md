@@ -11,3 +11,11 @@ Once you click on create screenshot it'll create a screenshot every 0.03s, once 
 **Tips**  
 Don't use the generator for objects of relatively different sized objects, it will use the same view rotation and view location for every shot taken, so you can bulk this with items of relatively the same size. (Chairs, Tables, Swords, bows, staffs, handguns, etc.)
 
+**Exported**
+Images are exported as Texture2D's into the content browser under ThumbnailExports and are prefixed with Thumb_
+
+![](https://i.imgur.com/q82lJjJ.png)
+
+**Example of the UI**
+![](https://i.imgur.com/zraPCAR.png)
+![](https://i.imgur.com/NCVYqtw.png)
