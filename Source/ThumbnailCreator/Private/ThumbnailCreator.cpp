@@ -176,17 +176,6 @@ TSharedRef<SDockTab> FThumbnailCreatorModule::OnSpawnPluginTab(const FSpawnTabAr
 						SNew(STextBlock).Text(FText::FromString("Generate Content Selection"))
 					]
 				]
-				.Padding(5, 0, 5, 10)
-				.HAlign(HAlign_Fill).VAlign(VAlign_Top).AutoHeight()
-				[
-					SNew(SButton)
-					.OnClicked_Lambda([this]() { 
-					/*	ViewportPtr->PreviewScene = NULL; return FReply::Handled();*/ return FReply::Handled();
-					})
-					[
-						SNew(STextBlock).Text(FText::FromString("Destroy Preview Scene"))
-					]
-				]
 				+ SVerticalBox::Slot()
 				.Padding(5, 0, 5, 10)
 				.HAlign(HAlign_Fill).VAlign(VAlign_Top).AutoHeight()
