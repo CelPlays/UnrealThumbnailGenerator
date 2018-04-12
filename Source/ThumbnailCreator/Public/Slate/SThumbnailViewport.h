@@ -65,7 +65,7 @@ public:
 	*	
 	*	@return the viewport client
 	*/
-	TSharedPtr<FThumbnailViewportClient> GetViewportClient() { return TypedViewportClient;  };
+	TSharedPtr<class FThumbnailViewportClient> GetViewportClient() { return TypedViewportClient;  };
 
 	
 	/*

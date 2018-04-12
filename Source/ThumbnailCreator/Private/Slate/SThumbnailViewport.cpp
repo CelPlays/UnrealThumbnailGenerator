@@ -6,6 +6,10 @@
 #include "AssetEditorModeManager.h"
 #include "Editor/AdvancedPreviewScene/Public/AdvancedPreviewScene.h"
 #include "Editor/AdvancedPreviewScene/Public/AdvancedPreviewSceneModule.h"
+#include "Components/SkeletalMeshComponent.h"
+#include "Engine/SkeletalMesh.h"
+#include "Components/StaticMeshComponent.h"
+#include "Components/PostProcessComponent.h"
 #include "ThumbnailViewportClient.h"
 
 

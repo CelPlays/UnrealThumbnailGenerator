@@ -17,6 +17,8 @@
 #include "Runtime/Engine/Classes/Animation/AnimationAsset.h"
 #include "ThumbnailCreatorCommands.h"
 #include "ThumbnailCreatorStyle.h"
+#include "Components/SkeletalMeshComponent.h"
+#include "Engine/SkeletalMesh.h"
 
 //Image
 #include "Runtime/Engine/Public/ImageUtils.h"
