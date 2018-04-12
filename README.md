@@ -27,6 +27,8 @@ Images are exported as Texture2D's into the content browser under ThumbnailExpor
 
 ![](https://i.imgur.com/q82lJjJ.png)
 
+**Some special thanks to eXifreXi for giving input throughout the development**
+
 **Example of the UI**
 ![](https://i.imgur.com/zraPCAR.png)
 ![](https://i.imgur.com/NCVYqtw.png)
