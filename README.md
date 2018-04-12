@@ -5,7 +5,7 @@ I created this tool because our team needed it to quickly make some thumbnails s
 The tool is primarily designed for our needs but should fit people's need in general. I've added Static Mesh, Skeletal Mesh, animations and materials.
 
 **IMPORTANT - Read before use**  
-IF you install this plugin into your project, make sure you go to project settings and put the setting "Custom Depth-Stencil Pass" to "Enabled With Stencil". If you don't like this option, you can turn it off when you are not using the creator. However, for the transparency to work, that has to be enabled.
+If you install this plugin into your project, make sure you go to project settings and put the setting "Custom Depth-Stencil Pass" to "Enabled With Stencil". If you don't like this option, you can turn it off when you are not using the creator. However, for the transparency to work, that has to be enabled for the duration of the usage.
 
 **How it works:**  
 You open the thumbnail generator and are started out with a scene and options panel on the left, on the options panel you can click buttons and also setup settings for the scene and screenshots.
