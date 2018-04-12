@@ -10,6 +10,7 @@ If you install this plugin into your project, make sure you go to project settin
 **How it works:**  
 You open the thumbnail generator and are started out with a scene and options panel on the left, on the options panel you can click buttons and also setup settings for the scene and screenshots.
 Once you click on create screenshot it'll create a screenshot every 0.03s, once that all is done it'll go over all created screenshots and reimport them as UTexture2D into the engine and saved into the content browser.
+For animations - Assign the skeletal mesh before assigning the animation.
 
 **Binaries Downloads - for those who don't want to compile it themselves**  
 4.18 -> https://drive.google.com/open?id=1D2wWOf1OO7Z1HgDnPVrSc83vH8oVQSGP  
