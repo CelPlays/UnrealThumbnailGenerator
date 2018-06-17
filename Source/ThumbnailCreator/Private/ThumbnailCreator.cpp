@@ -107,7 +107,15 @@ void FThumbnailCreatorModule::StartupModule()
 	}
 
 	//THIS IS NEEDED, if you don't do this you will crash the engine upon shutdown
-	FCoreDelegates::OnPreExit.AddLambda([this]() {ViewportPtr->PreviewScene.Reset(); ViewportPtr->TypedViewportClient.Reset(); ViewportPtr.Reset(); });
+	FCoreDelegates::OnPreExit.AddLambda([this]()
+	{
+		if (!ViewportPtr.IsValid())
+			return;
+
+		ViewportPtr->PreviewScene.Reset(); 
+		ViewportPtr->TypedViewportClient.Reset(); 
+		ViewportPtr.Reset();
+	});
 
 }
 
